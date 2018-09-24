@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
 
 <div ng-controller="QuestionController">
-    <h3>{{question.text}}</h3>
+    <h3 class="mainQuestion">{{question.text}}</h3>
     <p>{{question.author}}</p>
     <p><i>{{question.date}}</i></p>
     <div ng-repeat="answer in question.answers">
@@ -18,7 +19,7 @@
 </div>
 
 
-
+<div>{{221.30 | currency:'RUB'}}</div>
 
 
 
