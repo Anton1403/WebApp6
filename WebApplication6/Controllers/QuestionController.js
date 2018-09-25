@@ -10,7 +10,7 @@ myApp.controller("QuestionController",
             answers: [
                 {
                     text: "Cristiano Ronaldo",
-                    author: "sAlexey Apanovich",
+                    author: "Alexey Apanovich",
                     date: "21/09/2018",
                     rate: 1
                 }, {
